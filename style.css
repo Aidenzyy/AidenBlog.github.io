@@ -1,0 +1,152 @@
+body {
+  width: 100%;
+}
+
+/* HEADING */
+.navbar-brand {
+  font-family: "Farro", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-nav a {
+  font-size: 1.3em;
+}
+
+.navbar-nav a:hover {
+  color: red;
+}
+
+/* CONTAINER 1 */
+.container1 {
+  height: 600px;
+  background-image: url(img/bg-hero.jpg);
+  background-position-y: center;
+  background-size: cover;
+  filter: brightness(60%);
+}
+
+.container1 h1 {
+  padding-top: 270px;
+  font-weight: bold;
+  font-size: 3.5em;
+  color: black;
+  text-shadow: 2px 2px 1px gray;
+  opacity: 30;
+}
+
+.container1 span {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: black;
+}
+
+/* CONTAINER 2 */
+.container2 {
+  background-color: white;
+}
+
+.post-preview {
+  padding: 40px;
+}
+
+.container2 a,
+h2,
+h3,
+p {
+  text-decoration: none;
+}
+
+.container2 h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 2em;
+}
+
+.container2 h3 {
+  color: black;
+  font-size: 1.7em;
+  font-weight: 300;
+}
+
+.container2 p a {
+  font-style: italic;
+  color: rgb(131, 190, 192);
+}
+
+.container2 hr {
+  width: 93%;
+  margin: auto;
+}
+
+.clearfix button {
+  color: #fff;
+  background-color: rgb(53, 121, 121);
+  border-color: rgb(53, 121, 121);
+  margin-top: 25px;
+  margin-right: 50px;
+  padding: 20px;
+  font-size: 1em;
+  border-style: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container3 {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.container3 ul li {
+  display: inline;
+  padding: 2px;
+  font-size: 2.5em;
+  cursor: pointer;
+}
+
+.container3 a {
+  color: rgb(71, 71, 71);
+}
+
+.container3 p {
+  text-align: center;
+  font-size: 0.9em;
+  padding-left: 25px;
+}
+
+/* HOVER */
+
+.container2 h2:hover {
+  color: cadetblue;
+}
+
+.container2 p a:hover {
+  text-decoration: underline;
+}
+
+.clearfix button:hover {
+  background-color: rgb(33, 77, 77);
+}
+
+.container3 .twitter a:hover {
+  color: rgb(52, 162, 252);
+}
+
+.container3 .instagram a:hover {
+  color: rgb(211, 34, 102);
+}
+
+.container3 .github a:hover {
+  color: black;
+}
+
+/* Responsive Mobile */
+
+@media only screen and (max-width: 600px) {
+  .container2 hr {
+    width: 85%;
+  }
+}
